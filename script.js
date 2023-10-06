@@ -3,16 +3,13 @@
 // poi chiedi il suo colore preferito
 // Infine scrivi sulla pagina nomecognomecolorepreferito
 
-// const fixedNumber = 21;
-
-let nome = prompt('Dimmi il tuo nome');
+const nome = prompt('quale è il tuo nome ?');
 console.log(nome);
 
-let cognome = prompt('Dimmi il tuo cognome');
+const cognome = prompt('quale è il tuo cognome ?');
 console.log(cognome);
 
-let colore = prompt('Dimmi il tuo colore');
+let colore = prompt('quale è il tuo colore preferito ?');
 console.log(colore);
 
-let password = nomecognomecolorepreferito;
-password = nome + '' + cognome + '' + colore;
+console.log('nome' + 'cognome' + 'colore' + '21');
