@@ -8,5 +8,7 @@ const nome = prompt('quale è il tuo nome ?');
 const cognome = prompt('quale è il tuo cognome ?');
 
 const colore = prompt('quale è il tuo colore preferito ?');
+console.log(nome + cognome + colore + '21');
 
-console.log(`nomecognomecolore21`);
+const password = nome + cognome + colore + '21';
+console.log(password);
